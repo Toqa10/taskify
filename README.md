@@ -1,16 +1,97 @@
-# taskify
+🚀 Taskify
+<div align="center">
 
-A new Flutter project.
+✨ A modern task management app built with Flutter
+📱 Clean UI • 🎯 Smart Organization • 🌙 Dark Mode Ready
 
-## Getting Started
+</div>
+📌 Overview
 
-This project is a starting point for a Flutter application.
+Taskify is a beautifully designed task manager built using Flutter & Dart.
+It helps users organize daily tasks efficiently with priority levels, categories, and progress tracking.
 
-A few resources to get you started if this is your first Flutter project:
+The app is designed with Material 3 principles and supports both light and dark themes.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+✨ Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+✅ Create, edit, and delete tasks
+
+🎯 Priority system (Low / Medium / High)
+
+📂 Categorization (Study / Work / Personal)
+
+📅 Due date selection
+
+🔎 Smart search & filtering
+
+📊 Real-time progress tracking
+
+🌙 Light & Dark mode
+
+💾 Local storage using SharedPreferences
+
+📸 Screenshots
+
+(Add screenshots later for a more professional look)
+
+Home	Tasks	Settings
+📷	📷	📷
+📦 Download
+
+🔗 Latest Android Release
+
+👉 https://github.com/Toqa10/taskify/releases
+
+🛠️ Tech Stack
+
+Flutter
+
+Dart
+
+Material 3
+
+SharedPreferences
+
+State Management using ChangeNotifier
+
+🏗️ Architecture
+lib/
+ ├── core/
+ │   └── task_store.dart
+ ├── features/
+ │   ├── home/
+ │   ├── tasks/
+ │   ├── settings/
+ │   └── shell/
+ └── main.dart
+
+🚀 Getting Started
+Clone the repository
+git clone https://github.com/Toqa10/taskify.git
+cd taskify
+
+Install dependencies
+flutter pub get
+
+Run the app
+flutter run
+
+Build release APK
+flutter build apk --release
+
+🎯 Future Improvements
+
+🔔 Push Notifications
+
+☁️ Cloud sync (Firebase)
+
+📊 Advanced analytics dashboard
+
+👥 Multi-user support
+
+👩‍💻 Author
+
+Toqa Mahfouz
+Flutter Developer
+
+GitHub: https://github.com/Toqa10
